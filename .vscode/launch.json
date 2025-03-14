@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Publish: Your own server",        // maybe change the configuration name
+            "type": "al",
+            "request": "launch",
+            "environmentType": "OnPrem",
+            "server": "http://version24/BC/",               // change this to point to your instance URI
+            "serverInstance": "BC",                    // change this to point to your instance
+            "authentication": "UserPassword",          // change this to your auth setup
+            "startupObjectId": 50110,   
+            "startupObjectType": "Page",                  // change this to your choice of startup object
+            "breakOnError": "All",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500, 
+            "numberOfSqlStatements": 10,
+            "tenant": "default",                       // change this to point to your tenant
+            "usePublicURLFromServer": true
+        }
+    ]
+}
