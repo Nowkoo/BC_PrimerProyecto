@@ -10,7 +10,7 @@
             "server": "http://version24/BC/",               // change this to point to your instance URI
             "serverInstance": "BC",                    // change this to point to your instance
             "authentication": "UserPassword",          // change this to your auth setup
-            "startupObjectId": 50110,   
+            "startupObjectId": 50111,   
             "startupObjectType": "Page",                  // change this to your choice of startup object
             "breakOnError": "All",
             "breakOnRecordWrite": "None",
