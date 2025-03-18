@@ -1,1 +1,1 @@
-﻿{"Added":[{"Id":50112,"Kind":11,"Name":"Validations","Namespace":""}],"Modified":[],"Removed":[]}
+﻿{"Added":[{"Id":50117,"Kind":12,"Name":"MyAddress","Namespace":""},{"Kind":25,"Name":"IAddressProvider","Namespace":""},{"Id":50115,"Kind":11,"Name":"CompanyAddressProvider","Namespace":""},{"Id":50117,"Kind":22,"Name":"SendTo","Namespace":""},{"Id":50116,"Kind":11,"Name":"PrivateAddressProvider","Namespace":""},{"Id":50112,"Kind":11,"Name":"Validations","Namespace":""}],"Modified":[],"Removed":[]}
